@@ -52,3 +52,37 @@ La a etiqueta define un hipervínculo. El hrefatributo especifica la URL de la p
 * El atributo lang
 Siempre debes incluir el langatributo dentro de la  html etiqueta para declarar el idioma de la página web. 
 
+* El atributo del título
+Este titleatributo define información adicional sobre un elemento.
+
+07-headings
+![alt text](headings.png)
+
+08-parrafos
+Reglas horizontales HTML
+Esta hr etiqueta define una separación temática en una página HTML y, por lo general, se muestra como una línea horizontal.
+![alt text](parrafo.png)
+
+09-estilos
+El style atributo HTML se utiliza para añadir estilos a un elemento, como color, fuente, tamaño, etc.
+
+- Utilice el styleatributo para dar estilo a los elementos HTML.
+- Utilizar background-colorpara el color de fondo
+- Utilizar colorpara colores de texto
+- Utilizar font-familypara fuentes de texto
+- Utilizar font-sizepara tamaños de texto
+- Utilizar text-alignpara la alineación del texto
+
+![alt text](estilos.png)
+
+10-formato
+b- Texto en negrita
+strong- Texto importante
+i- Texto en cursiva
+em- Texto resaltado
+mark- Texto marcado
+small- Texto más pequeño
+del- Texto eliminado
+ins- Texto insertado
+sub- Texto de subíndice
+sup- Texto en superíndice
