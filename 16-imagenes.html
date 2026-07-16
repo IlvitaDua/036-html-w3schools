@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Image</h2>
+<img src="pic_trulli.jpg" alt="Trulli" width="500" height="333">
+<h2>HTML Image</h2>
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+<!--El atributo src-->
+<img src="img_girl.jpg" alt="Girl in a jacket" width="300" height="400">
+
+<!--El atributo alt-->
+<img src="img_girl.jpg" alt="Girl in a jacket" width="300" height="400">
+
+<!--i un navegador no puede encontrar una imagen, mostrará el valor del alt-->
+<img src="wrongname.gif" alt="Flowers in Chania">
+
+<!--tamaño de la imagen-->
+<h2>Image Size</h2>
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:300px;height:400px;">
+
+<!--puede utilizar los atributos widthy :height-->
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+<!--¿Ancho y alto, o estilo?-->
+<head>
+<style>
+img {
+  width: 100%;
+}
+</style>
+</head>
+<body>
+
+<img src="html5.gif" alt="HTML5 Icon" width="128" height="128">
+<img src="html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<!--imagenes en otra carpeta-->
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<!--Imágenes en otro servidor/sitio web-->
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+<!--imagenes animadas-->
+
+<h2>Animated Images</h2>
+<img src="programming.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+<!--Imagen como enlace-->
+<a href="default.asp">
+  <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+<!--imagen flotante-->
+<h2>Floating Images</h2>
+<p><strong>Float the image to the right:</strong></p>
+
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+</p>
+
+<p><strong>Float the image to the left:</strong></p>
+<p>
+<img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+</p>
+
+<!--mapas de imagen-->
+
+<h2>Image Maps</h2>
+<p>Click on the computer, the phone, or the cup of coffee to go to a new page and read more about the topic:</p>
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
+</map>
+
+<!--Imágenes de fondo-->
+<h2>Background Image</h2>
+
+<p>A background image for a p element:</p>
+
+<p style="background-image: url('img_girl.jpg');">
+You can specify background images<br>
+for any visible HTML element.<br>
+In this example, the background image<br>
+is specified for a p element.<br>
+By default, the background-image<br>
+will repeat itself in the direction(s)<br>
+where it is smaller than the element<br>
+where it is specified. (Try resizing the<br>
+browser window to see how the<br>
+background image behaves.
+</p>
+
+<!--Imagen de fondo en una página-->
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+</style>
+
+<!--Repetición de fondo-->
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+<!--portada de fondo-->
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+<!--estiramiento de fondo-->
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+<!--elemento picture-->
+<picture>
+  <source media="(min-width: 650px)" srcset="img_girl.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+
+
+</body>
+</html>
