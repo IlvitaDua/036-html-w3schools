@@ -2,10 +2,6 @@
 Fundamentos de HTML con W3Schools
 
 ## HTML es el lenguaje de marcado estándar para páginas web.
-
-# 01-home
-![alt text](home.png)
-
 # 02-introduccion
 ## ¿Qué es HTML?
 HTML significa Lenguaje de Marcado de Hipertexto, es el lenguaje de marcado estándar para crear páginas web.
