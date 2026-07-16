@@ -112,3 +112,90 @@ Los valores de color HSLA son una extensión de los valores de color HSL, con un
 Un valor de color HSLA se especifica con:
 - hsla( tono, saturación , luminosidad, alfa )
 - El parámetro alfa es un número entre 0,0 (totalmente transparente) y 1,0 (nada transparente)
+
+# 14 Estilos css
+CSS significa Hojas de Estilo en Cascada.
+
+CSS ahorra mucho trabajo. Permite controlar el diseño de varias páginas web a la vez.
+
+Se puede agregar CSS a los documentos HTML de 3 maneras:
+
+En línea : mediante el uso del styleatributo dentro de los elementos HTML
+Interno - mediante el uso de un <!--<style>-->elemento en la <!--<head>-->sección
+Externo : mediante el uso de un <!--<link>--> elemento para enlazar con un archivo CSS externo.
+
+## Colores, fuentes y tamaños CSS
+Aquí, mostraremos algunas propiedades CSS de uso común. Aprenderás más sobre ellas más adelante.
+
+colorLa propiedad CSS define el color del texto que se va a utilizar.
+
+font-familyLa propiedad CSS define la fuente que se va a utilizar.
+
+font-sizeLa propiedad CSS define el tamaño del texto que se va a utilizar.
+
+Utilice el styleatributo HTML para el estilo en línea.
+Utilice el style elemento HTML para definir el CSS interno.
+Utilice el link elemento HTML para hacer referencia a un archivo CSS externo.
+Utilice el head elemento HTML para almacenar elementos style y link.
+Utilice la colorpropiedad CSS para los colores del texto.
+Utilice la font-familypropiedad CSS para fuentes de texto.
+Utilice la font-sizepropiedad CSS para los tamaños de texto.
+Utilice la borderpropiedad CSS para los bordes.
+Utilice la paddingpropiedad CSS para el espacio dentro del borde.
+Utilice la marginpropiedad CSS para el espacio fuera del borde.
+
+# 15 Enlaces
+Por defecto, los enlaces aparecerán de la siguiente manera en todos los navegadores:
+
+Un enlace no visitado aparece subrayado y en azul.
+Un enlace visitado aparece subrayado y en color morado.
+Un enlace activo aparece subrayado y en rojo.
+
+El targetatributo especifica dónde abrir el documento vinculado.
+
+El targetatributo puede tener uno de los siguientes valores:
+
+_self- Predeterminado. Abre el documento en la misma ventana/pestaña en la que se hizo clic.
+_blank- Abre el documento en una ventana o pestaña nueva.
+_parent- Abre el documento en el marco principal.
+_top- Abre el documento en todo el cuerpo de la ventana.
+
+Utilice el a elemento para definir un enlace.
+Utilice el hrefatributo para definir la dirección del enlace.
+Utilice el targetatributo para definir dónde abrir el documento vinculado.
+Utilice el img elemento (dentro de  a) para usar una imagen como enlace.
+Utilice el mailto:esquema dentro del hrefatributo para crear un enlace que abra el programa de correo electrónico del usuario.
+
+* marcador
+Utilice el idatributo (id=" valor ") para definir marcadores en una página.
+Utilice el hrefatributo (href="# valor ") para enlazar con el marcador.
+
+# 16 imagenes
+Sintaxis de imágenes HTML
+La img etiqueta HTML se utiliza para insertar una imagen en una página web.
+
+Las imágenes no se insertan técnicamente en una página web; se enlazan a páginas web. La img etiqueta crea un espacio reservado para la imagen a la que se hace referencia.
+
+La img etiqueta está vacía, contiene solo atributos y no tiene etiqueta de cierre.
+
+La img etiqueta tiene dos atributos obligatorios:
+
+src - Especifica la ruta a la imagen
+alt - Especifica un texto alternativo para la imagen
+
+* El atributo src
+El atributo obligatorio srcespecifica la ruta (URL) a la imagen.
+
+* El atributo alt
+El altatributo required proporciona un texto alternativo para una imagen, en caso de que el usuario no pueda verla por algún motivo (debido a una conexión lenta, un error en el atributo src o si el usuario utiliza un lector de pantalla).
+
+# Mapas de imágenes
+La map etiqueta HTML define un mapa de imagen. Un mapa de imagen es una imagen con áreas clicables. Estas áreas se definen con una o más area etiquetas.
+
+* ¿Cómo funciona?
+La idea detrás de un mapa de imágenes es que puedas realizar diferentes acciones dependiendo del lugar de la imagen en el que hagas clic.
+
+Para crear un mapa de imágenes necesitas una imagen y un código HTML que describa las áreas en las que se puede hacer clic.
+
+# 17 Favicon
+es una pequeña imagen que se muestra junto al título de la página en la pestaña del navegador.
