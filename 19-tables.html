@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>HTML Table</h2>
+
+<table>
+    <tr> <!--fila-->
+        <th>Company</th> <!--th encabezados de la tabla-->
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfreds Futterkiste</td><!--contenido de la celda-->
+        <td>Maria Anders</td>
+        <td>Germany</td>
+    </tr>
+    <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+    </tr>
+    <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+    </tr>
+    <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+    </tr>
+</table>
+</body>
+</html>
+
+<!--bordes de la tabla-->
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+</html>
+
+<!--Bordes de tabla colapsados
+evita tener bordes dobles-->
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+</html>
+
+<!--Bordes de mesa con estilo
+establece un color de fondo-->
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #96D4D4; 
+}
+</style>
+</head>
+</html>
+
+<!--bordes de mesa redonda
+border-radius, los bordes tienen esquinas redondeadas-->
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+</head>
+</html>
+<!--omite el borde alrededor-->
+<html>
+<head>
+<style>
+th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+</style>
+</head>
+</html>
+
+<!--bordes punteados-->
+<html>
+<head>
+<style>
+th, td {
+  border-style: dotted;
+}
+</style>
+</head>
+
+<!--color de borde-->
+<html>
+<head>
+<style>
+ th, td {
+  border-color: #96D4D4;
+}
+</style>
+</head>
+</html>
+
+<!--tamaño de tabla-->
+<!--ancho de la tabla establece el ancho al 100%-->
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!--ancho de columna-->
+<table style="width:100%">
+  <tr>
+    <th style="width:70%">Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!--alto de fila-->
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr style="height:200px">
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!--eencabezados de tabla-->
+<table>
+  <tr>
+    <th>Firstname</th> <!--th define los encabezados de la tabla-->
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!--encabezados de tablas verticales-->
+<table>
+  <tr>
+    <th>Firstname</th> <!-- se define la primera celda de cada fila como encabezado -->
+    <td>Jill</td>
+    <td>Eve</td>
+  </tr>
+  <tr>
+    <th>Lastname</th>
+    <td>Smith</td>
+    <td>Jackson</td>
+  </tr>
+  <tr>
+    <th>Age</th>
+    <td>94</td>
+    <td>50</td>
+  </tr>
+</table>
+
+<!--alinear encabezados a tablas
+por defecto los encabezdos aparecen en negrita y alineados-->
+th {
+  text-align: left;
+}
+
+<!--encabezados para cada columna
+se utiliza el atributo colspan-->
+
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
+
+<!--titulo de la tabla con la etiqueta caption-->
+<table style="width:100%">
+  <caption>Monthly savings</caption>
+  <tr>
+    <th>Month</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+</table>
+
+<!--rellenos y espacios -->
+<!--relleno de celda-->
+th, td {
+  padding: 15px;
+}
+
+<!--agregar relleno solo encima del contenido, 
+utilice la padding-top, padding-bottom, padding-left, y :padding-right-->
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+<!--espaciado entre celda
+se utiliza border-spacing-->
+table {
+  border-spacing: 30px;
+}
+
+<!--Colspan y Rowspan-->
+<!--colpan abarca varias columnas-->
+ <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+<!--rowspan abarca varias filas-->
+ <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+</tr>
+
+<!--estilo de tabla-->
+<!--rayas de cebra
+Para aplicar estilos a cada segundo elemento de fila de la tabla, utilice el :nth-child(even)-->
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+<!--rayas de cebra en vertical-->
+td:nth-child(even), th:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+<!--combinacion de rayas de cebra en vertical y horizontal-->
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+<!--divisores horizontales
+border-bottompropiedad a todos tr-->
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+<!--mesa flotante
+Utilice el :hoverselector trpara resaltar las filas de la tabla al pasar el ratón por encima-->
+tr:hover {background-color: #D6EEEE;}
+
+<!--grupos de columnas-->
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+
+<!--multiples elementos de columna-->
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+    <col span="3" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+
+<!--Colgroups vacíos-->
+<table>
+  <colgroup>
+    <col span="3">
+    <col span="2" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+
+<!--ocultar columnas-->
+<table>
+  <colgroup>
+    <col span="2">
+    <col span="3" style="visibility: collapse">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
