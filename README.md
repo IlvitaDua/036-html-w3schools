@@ -199,3 +199,72 @@ Para crear un mapa de imágenes necesitas una imagen y un código HTML que descr
 
 # 17 Favicon
 es una pequeña imagen que se muestra junto al título de la página en la pestaña del navegador.
+
+# 18 tabla
+* celdas tabla
+Cada celda de la tabla se define mediante una etiqueta td y una /td etiqueta.
+
+td significa datos de tabla.
+
+* filas de la tabla
+Cada fila de la tabla comienza con una etiqueta <tr>y termina con una </tr>etiqueta.
+
+tr significa fila de mesa.
+
+# 20 listas
+* Listas de descripción HTML
+HTML también admite listas descriptivas.
+
+Una lista descriptiva es una lista de términos, con una descripción de cada término.
+
+La dl etiqueta define la lista de descripción, la dt etiqueta define el término (nombre) y la dd etiqueta describe cada término
+
+## Listas no ordenadas en HTML
+La etiqueta HTML <ul>define una lista no ordenada (con viñetas).
+
+Utilice el elemento HTML ol para definir una lista ordenada.
+Utilice el typeatributo HTML para definir el tipo de numeración.
+Utilice el li elemento HTML para definir un elemento de lista.
+Las listas pueden estar anidadas.
+Los elementos de la lista pueden contener otros elementos HTML.
+
+Un elemento de nivel de bloque siempre comienza en una nueva línea y ocupa todo el ancho disponible.
+Un elemento en línea no comienza en una nueva línea y solo ocupa el ancho necesario.
+El div elemento es un elemento de nivel de bloque y se usa a menudo como contenedor para otros elementos HTML.
+El spa elemento es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+
+# 22 Elemento div
+Por defecto, este div elemento es un elemento de bloque, lo que significa que ocupa todo el ancho disponible e incluye saltos de línea antes y después
+
+# 23 class
+El class atributo HTML especifica uno o más nombres de clase para un elemento.
+CSS y JavaScript utilizan clases para seleccionar y acceder a elementos específicos.
+Este classatributo se puede utilizar en cualquier elemento HTML.
+El nombre de la clase distingue entre mayúsculas y minúsculas.
+Diferentes elementos HTML pueden apuntar al mismo nombre de clase.
+JavaScript puede acceder a elementos con un nombre de clase específico con el getElementsByClassName() método
+
+# 24 Atributo id de HTML
+El atributo HTML idse utiliza para especificar un identificador único para un elemento HTML.
+
+No puede haber más de un elemento con el mismo ID en un documento HTML.
+
+* Diferencia entre clase e ID
+Un nombre de clase puede ser utilizado por varios elementos HTML, mientras que un nombre de ID solo debe ser utilizado por un único elemento HTML dentro de la página
+
+Este id atributo se utiliza para especificar un identificador único para un elemento HTML.
+El valor del id atributo debe ser único dentro del documento HTML.
+Este id atributo es utilizado por CSS y JavaScript para dar estilo o seleccionar un elemento específico.
+El valor del id atributo distingue entre mayúsculas y minúsculas.
+Este id atributo también se utiliza para crear marcadores HTML.
+JavaScript puede acceder a un elemento con un id específico con el getElementById() método
+
+# 25 botones
+Tipos de botones
+El typeatributo define qué hace un botón al hacer clic. Hay tres tipos de botones:
+
+type="button"- Un botón normal en el que se puede hacer clic (no hace nada por defecto).
+type="submit"- Envía un formulario
+type="reset"- Restablece todos los campos del formulario
+
+
